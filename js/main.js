@@ -28,7 +28,7 @@
 					num = 0;
 				}
 				txt[index].innerHTML = num;
-				subTotal[index].innerHTML = +price[index].innerHTML * num;		
+				subTotal[index].innerHTML = num * (+price[index].innerHTML * 10) / 10;		
 				total();
 			}
 			
